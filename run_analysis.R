@@ -106,5 +106,5 @@ tail(df2[,1:4], n = 20)
 
 #write the tidy data set
 setwd("~/coursera/CleaningDataCourseProject/final")
-write.table(df2, file = "tidydataset.txt")
+write.table(df2, file = "tidydataset.txt",  row.name=FALSE)
 
