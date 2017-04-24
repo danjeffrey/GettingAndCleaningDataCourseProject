@@ -1,11 +1,11 @@
 ## CodeBook for run_analysis.R
 
 ### Variables
-Gyroscope Variables are in radians/second. 
-Accelerometer is calculated by subtracting gravity from total acceleration, meters per second squared.
-Values are either Time or Frequency.
-All values are a mean or standard deviation (std)
-X,Y, and Z represents axis of measurement. 
+* Gyroscope Variables are in radians/second. 
+* Accelerometer is calculated by subtracting gravity from total acceleration, meters per second squared.
+* Values are either Time or Frequency.
+* All values are a mean or standard deviation (std)
+* X,Y, and Z represents axis of measurement. 
 
  [1] "TimeBodyAccelerometer-mean()-X"                             
  [2] "TimeBodyAccelerometer-mean()-Y"                             
@@ -101,12 +101,12 @@ subject: the subject's ID number
 activity: the activity name
 
 ACTIVITIES:
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+* 1 WALKING
+* 2 WALKING_UPSTAIRS
+* 3 WALKING_DOWNSTAIRS
+* 4 SITTING
+* 5 STANDING
+* 6 LAYING
 
 ### Data
 From:
