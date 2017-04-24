@@ -82,7 +82,6 @@ head(dfSub$activity, n = 50)
 #Mag = Magnitude
 #angle = AngularVelocity
 names(dfSub)
-
 names(dfSub) <- gsub("^t", "Time", names(dfSub))
 names(dfSub) <- gsub("Acc", "Accelerometer", names(dfSub))
 names(dfSub) <- gsub("Gyro", "Gyroscope", names(dfSub))
@@ -91,7 +90,6 @@ names(dfSub) <- gsub("^angle", "AngularVelocity", names(dfSub))
 names(dfSub) <- gsub("^f", "Frequency", names(dfSub))
 names(dfSub) <- gsub("BodyBody", "Body", names(dfSub))
 names(dfSub) <- gsub('tBody', 'TimeBody', names(dfSub))
-
 names(dfSub)
 
 #aggregate the the mean of each variable by subject and activity type

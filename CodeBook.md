@@ -1,4 +1,4 @@
-## CodeBook for run_analysis.R
+## CodeBook
 
 ### Variables
 * Gyroscope Variables are in radians/second. 
