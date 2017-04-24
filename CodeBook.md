@@ -1,6 +1,6 @@
-# CodeBook for run_analysis.R
+## CodeBook for run_analysis.R
 
-##Variables
+### Variables
 Gyroscope Variables are in radians/second. 
 Accelerometer is calculated by subtracting gravity from total acceleration, meters per second squared.
 Values are either Time or Frequency.
@@ -96,7 +96,7 @@ X,Y, and Z represents axis of measurement.
 [87] "subject"                                                    
 [88] "activity"   
 
-##Subject & Activity
+### Subject & Activity
 subject: the subject's ID number
 activity: the activity name
 
@@ -108,7 +108,7 @@ ACTIVITIES:
 5 STANDING
 6 LAYING
 
-##Data
+### Data
 From:
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -133,11 +133,11 @@ subject_test.txt
 X_test.txt
 y_test.txt
 
-##Transformations
+### Transformations
 
 The data above is merged into one tidy data set, making the tests with subject number and activity into one data set. The variables have been subset to include only tests involving a mean or standard deviation, names have been changed to be more readable, the activity has been changed from an integer to a string, and dataset called tidydataset.txt is written for the mean of each variable by subject and activity.   
 
-## Output
+### Output
 tidydataset.txt
 
 
